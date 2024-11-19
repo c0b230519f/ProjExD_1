@@ -15,7 +15,7 @@ def main():
     kk_img = pg.transform.flip(kk_img, True, False)
     kk_img = pg.transform.rotozoom(kk_img, 10, 1.0)
     tmr = 0
-
+#
     bg_x = 0
     bg_width = bg_img.get_width()
     kk_rect = kk_img.get_rect()
