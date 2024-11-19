@@ -26,7 +26,6 @@ def main():
             if event.type == pg.QUIT: return
         key_lst = pg.key.get_pressed()
         #print(key_lst[end=])
-        x=tmr
         screen.blit(bg_img, [-(tmr%1600), 0]) #スクリーンサーフェイスに背景画像を貼る
         screen.blit(bg_img2, [-((tmr+1600)%1600), 0])
         screen.blit(kk_img, [300, 200])
